@@ -47,7 +47,7 @@ function StudioInner() {
     }).catch((err) => {
       console.error('Studio init error:', err);
       setLoading(false);
-      message.error('خطا در راه‌اندازی استودیو: ' + (err.message || err));
+      message.error('خطا در راه‌اندازی المنتور: ' + (err.message || err));
     });
 
     return () => {
@@ -127,7 +127,7 @@ function StudioInner() {
               zIndex: 1000,
             }}
           >
-            <Spin size="large" description="در حال آماده‌سازی استودیو و دیزاین سیستم Ant..." />
+            <Spin size="large" description="در حال آماده‌سازی المنتور (Elementor) و دیزاین سیستم Ant..." />
           </div>
         )}
         <div id="studio-canvas" style={{ width: '100%', height: '100%' }} />

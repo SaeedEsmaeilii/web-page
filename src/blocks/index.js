@@ -123,7 +123,7 @@ export const customBlocks = [
             </div>
 
             <button type="submit" class="ant-btn-primary" style="width: 100%; height: 42px;">
-              ورود به استودیو
+              ورود به المنتور
             </button>
           </form>
         </div>

@@ -77,7 +77,7 @@ export function CodeExportModal({ open, onClose, html = '', css = '' }) {
       ]}
     >
       <Paragraph type="secondary" style={{ marginBottom: 16 }}>
-        کدهای استاندارد و بهینه‌سازی‌شده تولید شده توسط استودیو برای استفاده در محیط‌های فرانت‌اند و استقرار در سرور:
+        کدهای استاندارد و بهینه‌سازی‌شده تولید شده توسط المنتور برای استفاده در محیط‌های فرانت‌اند و استقرار در سرور:
       </Paragraph>
       <Tabs activeKey={activeTab} onChange={setActiveTab} items={tabItems} />
     </Modal>

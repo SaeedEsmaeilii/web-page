@@ -82,7 +82,8 @@ export function AppHeader({
             justifyContent: 'center',
             color: '#fff',
             fontSize: 18,
-            boxShadow: '0 4px 14px rgba(99, 102, 241, 0.4)',
+            boxShadow: '0 4px 14px rgba(217, 70, 239, 0.4)',
+            background: 'linear-gradient(135deg, #d946ef 0%, #9333ea 100%)',
           }}
         >
           <ThunderboltOutlined />
@@ -97,10 +98,10 @@ export function AppHeader({
               WebkitTextFillColor: 'transparent',
             }}
           >
-            آرتا استودیو
+            المنتور (Elementor)
           </span>
-          <Tag color="indigo" variant="filled" style={{ margin: 0, fontWeight: 700 }}>
-            Ant Design
+          <Tag color="magenta" variant="filled" style={{ margin: 0, fontWeight: 700 }}>
+            Elementor Pro
           </Tag>
         </div>
       </Space>

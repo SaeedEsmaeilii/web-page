@@ -413,7 +413,7 @@ export async function initStudioEditor(root = '#studio', onReady) {
         onReady({ studio, editor: activeGjsEditor });
       }
 
-      console.log('✨ استودیو طراحی وب‌سایت آرتا با موفقیت و به زبان فارسی آماده به کار است!');
+      console.log('✨ المنتور (Elementor) با موفقیت و به زبان فارسی آماده به کار است!');
     },
   });
 

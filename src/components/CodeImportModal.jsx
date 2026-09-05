@@ -74,7 +74,7 @@ export function CodeImportModal({ open, onClose }) {
               onClick={() => {
                 setCode(`<!-- نمونه کارت مدرن با CSS سفارشی و انیمیشن -->
 <div class="custom-card">
-  <div class="card-badge">ویژه آرتا استودیو</div>
+  <div class="card-badge">ویژه المنتور (Elementor)</div>
   <h2 class="card-title">طراحی وب فوق‌العاده مدرن</h2>
   <p class="card-desc">این کامپوننت با استایل‌های CSS درون‌خطی و فونت فارسی وزیرمتن طراحی شده و به صورت ۱۰۰٪ روی بوم اعمال می‌شود.</p>
   <div class="card-actions">

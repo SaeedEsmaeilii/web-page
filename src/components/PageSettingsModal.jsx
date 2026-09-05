@@ -31,10 +31,10 @@ export function PageSettingsModal({ open, onClose }) {
         layout="vertical"
         onFinish={handleFinish}
         initialValues={{
-          pageTitle: 'صفحه اصلی - آرتا استودیو',
+          pageTitle: 'صفحه اصلی - المنتور',
           slug: 'home',
-          metaDescription: 'پلتفرم پیشرفته طراحی بصری و واکنش‌گرای وب‌سایت به زبان فارسی.',
-          keywords: 'صفحه‌ساز, طراحی وب, ری‌اکت, انت دیزاین',
+          metaDescription: 'پلتفرم پیشرفته طراحی بصری و واکنش‌گرای وب‌سایت با المنتور و دیزاین سیستم Ant Design.',
+          keywords: 'المنتور, صفحه‌ساز, طراحی وب, ری‌اکت, elementor',
           indexSearchEngines: true,
         }}
         style={{ marginTop: 20 }}

@@ -19,7 +19,7 @@ export const modernLandingHtml = `
           </svg>
         </div>
         <div style="display: flex; flex-direction: column;">
-          <span style="font-size: 1.35rem; font-weight: 800; letter-spacing: -0.02em; background: linear-gradient(135deg, #0f172a 0%, #334155 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">آرتا استودیو</span>
+          <span style="font-size: 1.35rem; font-weight: 800; letter-spacing: -0.02em; background: linear-gradient(135deg, #0f172a 0%, #334155 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">المنتور (Elementor)</span>
           <span style="font-size: 0.72rem; color: #64748b; font-weight: 600; margin-top: -2px;">پلتفرم طراحی دیداری وب</span>
         </div>
       </div>
@@ -195,7 +195,7 @@ export const modernLandingHtml = `
       <!-- Starter Plan -->
       <div style="background: white; border: 1px solid #e2e8f0; border-radius: 22px; padding: 2.5rem 2rem; box-shadow: 0 4px 20px -2px rgba(0,0,0,0.03); transition: transform 0.3s ease;">
         <h3 style="font-size: 1.35rem; font-weight: 700; color: #0f172a; margin: 0 0 0.5rem 0;">شروع و فردی</h3>
-        <p style="color: #64748b; font-size: 0.95rem; margin: 0 0 1.5rem 0;">مناسب پروژه‌های شخصی و تست امکانات استودیو</p>
+        <p style="color: #64748b; font-size: 0.95rem; margin: 0 0 1.5rem 0;">مناسب پروژه‌های شخصی و تست امکانات المنتور</p>
         <div style="font-size: 2.5rem; font-weight: 900; color: #0f172a; margin-bottom: 1.75rem;">
           رایگان <span style="font-size: 1rem; font-weight: 500; color: #64748b;">/ همیشگی</span>
         </div>
@@ -279,7 +279,7 @@ export const modernLandingHtml = `
   <section id="testimonials" style="padding: 5rem 1.5rem; max-width: 1200px; margin: 0 auto; background: rgba(241, 245, 249, 0.6); border-radius: 32px;">
     <div style="text-align: center; margin-bottom: 3.5rem;">
       <h2 style="font-size: 2.25rem; font-weight: 900; color: #0f172a; margin: 0 0 0.75rem 0;">نظرات طراحان و مدیران محصول</h2>
-      <p style="color: #64748b; font-size: 1.1rem;">تجربه واقعی کسانی که با این استودیو کار کرده‌اند</p>
+      <p style="color: #64748b; font-size: 1.1rem;">تجربه واقعی کسانی که با المنتور کار کرده‌اند</p>
     </div>
 
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.75rem;">
@@ -393,7 +393,7 @@ export const modernLandingHtml = `
 
       <h2 style="font-size: 2.75rem; font-weight: 900; margin: 0 0 1.25rem 0; letter-spacing: -0.02em;">آماده‌اید وب‌سایت شگفت‌انگیز خود را بسازید؟</h2>
       <p style="color: #c7d2fe; font-size: 1.2rem; max-width: 680px; margin: 0 auto 2.5rem auto; line-height: 1.8;">
-        همین حالا کار با استودیو را آغاز کنید، المان‌های صفحه را جا‌به‌جا نمایید و در کمترین زمان خروجی مورد نظرتان را دریافت کنید.
+        همین حالا کار با المنتور را آغاز کنید، المان‌های صفحه را جا‌به‌جا نمایید و در کمترین زمان خروجی مورد نظرتان را دریافت کنید.
       </p>
       <div style="display: flex; gap: 1rem; justify-content: center; align-items: center; flex-wrap: wrap;">
         <a href="#action" style="padding: 1rem 2.5rem; background: #ffffff; color: #312e81; text-decoration: none; border-radius: 14px; font-weight: 800; font-size: 1.05rem; box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); transition: transform 0.2s ease;">همین الان شروع کنید</a>
@@ -411,7 +411,7 @@ export const modernLandingHtml = `
           <div style="width: 36px; height: 36px; background: linear-gradient(135deg, #6366f1, #ec4899); border-radius: 10px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
             ★
           </div>
-          <span style="font-size: 1.3rem; font-weight: 800; color: #f8fafc;">آرتا استودیو</span>
+          <span style="font-size: 1.3rem; font-weight: 800; color: #f8fafc;">المنتور</span>
         </div>
         <p style="color: #64748b; font-size: 0.95rem; line-height: 1.8; max-width: 320px; margin: 0;">
           قدرتمندترین ویرایشگر دیداری وب‌سایت با معماری مدرن، پشتیبانی کامل از زبان فارسی و خروجی استاندارد وب.
@@ -451,7 +451,7 @@ export const modernLandingHtml = `
     </div>
 
     <div style="max-width: 1200px; margin: 0 auto; border-top: 1px solid #1e293b; padding-top: 2rem; display: flex; justify-content: space-between; align-items: center; font-size: 0.88rem; color: #64748b;">
-      <p style="margin: 0;">© ۱۴۰۵ تمامی حقوق برای آرتا استودیو محفوظ است. قدرت گرفته از GrapesJS Studio SDK.</p>
+      <p style="margin: 0;">© ۱۴۰۵ تمامی حقوق برای المنتور محفوظ است. قدرت گرفته از Elementor.</p>
       <div style="direction: ltr; font-weight: 600;">Designed with Passion in Iran</div>
     </div>
   </footer>
