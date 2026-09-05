@@ -1,0 +1,83 @@
+@import '@grapesjs/studio-sdk/style';
+
+:root {
+  --font-family: 'Vazirmatn', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --bg-primary: #090d16;
+  --bg-secondary: #0f172a;
+  --bg-tertiary: #1e293b;
+  --accent-primary: #6366f1;
+  --accent-hover: #818cf8;
+  --antd-border-radius: 8px;
+  --antd-primary: #6366f1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  font-family: var(--font-family) !important;
+  background-color: var(--bg-primary);
+  color: #f8fafc;
+  direction: rtl;
+  text-align: right;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#studio-canvas {
+  width: 100%;
+  height: 100%;
+  direction: rtl;
+}
+
+#studio-canvas * {
+  font-family: var(--font-family) !important;
+}
+
+/* Ant Design style adjustments for Studio SDK Inputs and Panels */
+#studio-canvas input,
+#studio-canvas select,
+#studio-canvas textarea {
+  border-radius: var(--antd-border-radius) !important;
+  font-family: var(--font-family) !important;
+  transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1) !important;
+}
+
+#studio-canvas input:focus,
+#studio-canvas select:focus,
+#studio-canvas textarea:focus {
+  border-color: var(--antd-primary) !important;
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.25) !important;
+  outline: none !important;
+}
+
+/* Custom Sleek Dark Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-primary);
+}
